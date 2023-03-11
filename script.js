@@ -1,8 +1,8 @@
 let snake = document.getElementById('snake');
 let food = document.getElementById('food');
 
-let x = 200;
-let y = 200;
+let x = 0;
+let y = 0;
 let speed = 10;
 let direction = 'right';
 

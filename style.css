@@ -1,25 +1,22 @@
-#game-container {
-    position: relative;
-    width: 400px;
-    height: 400px;
+#game-board {
+    width: 500px;
+    height: 500px;
     border: 1px solid black;
-    margin: 0 auto;
+    position: relative;
 }
 
 #snake {
-    position: absolute;
     width: 10px;
     height: 10px;
     background-color: black;
-    top: 200px;
-    left: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #food {
-    position: absolute;
     width: 10px;
     height: 10px;
     background-color: red;
-    top: 100px;
-    left: 100px;
+    position: absolute;
 }
